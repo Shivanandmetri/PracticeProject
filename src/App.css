@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-image: linear-gradient(to bottom right, orange, white, green);
+    height: 100vh;
+}
+
+.heading {
+    top: 100px;
+    position: relative;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
